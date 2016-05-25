@@ -4,9 +4,6 @@ using System.Collections;
 public class Acelerate : MonoBehaviour {
 	
 
-	public TextMesh Gyros_Text;
-	public TextMesh AccelerationText;
-	public Camera camera;
 
 
 
@@ -93,15 +90,8 @@ public class Acelerate : MonoBehaviour {
 
 
 			//camera.transform.Rotate(gyro.attitude.x,gyro.attitude.y,gyro.attitude.z);
-			Gyros_Text.text = "Gyroscope: " + quatMap.ToString();
-		} else {
-			Gyros_Text.text = "No gyroscope";
-		}
+		} 
 
-
-
-
-		AccelerationText.text = "Aceleracion: " + Input.acceleration.ToString ();
 
 		var xrot = Mathf.Atan2(Input.acceleration.z, Input.acceleration.y);
 		var yzmag = Mathf.Sqrt(Mathf.Pow(Input.acceleration.y, 2) +                               

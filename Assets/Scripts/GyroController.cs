@@ -24,7 +24,7 @@ public class GyroController : MonoBehaviour
 	private Quaternion baseOrientationRotationFix =  Quaternion.identity;
 
 	private Quaternion referanceRotation = Quaternion.identity;
-	private bool debug = true;
+	private bool debug = false;
 
 	#endregion
 
