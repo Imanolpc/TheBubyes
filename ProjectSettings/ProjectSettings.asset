@@ -443,8 +443,10 @@ PlayerSettings:
   boolPropertyNames:
   - XboxOne::enus
   XboxOne::enus: 1
-  stringPropertyNames: []
+  stringPropertyNames:
+  - Build_ServiceEnabled::Build_ServiceEnabled
+  Build_ServiceEnabled::Build_ServiceEnabled: True
   cloudProjectId: cc4e2855-c6a8-4423-b6de-a7466d068521
-  projectName: .Buggys
+  projectName: Bugys
   organizationId: kunkun87
   cloudEnabled: 0
